@@ -1,6 +1,6 @@
 h1 {
   text-align: center;
-  color: cyan;
+  color: #37c5b2;
 }
 
 h3 {
@@ -8,7 +8,16 @@ h3 {
   color: green;
 }
 
-project-links {
+.projects {
+  margin: 0px auto;
+  width: 50%;
+}
+.project-links {
   margin: 0px auto;
   text-align: left;
+  width: 250px;
+}
+
+ul {
+  list-style-position: inside;
 }
