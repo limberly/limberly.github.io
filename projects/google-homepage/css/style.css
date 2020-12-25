@@ -1,0 +1,182 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 84% 4% 4% 2% 6%;
+  justify-items: right;
+  align-items: center;
+  font-size: 13px;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.gmail {
+  grid-column: 2/3;
+  color: black;
+}
+
+.images {
+  grid-column: 3/4;
+  color: black;
+}
+
+.apps {
+  grid-column: 4/5;
+  display: grid;
+  grid-template-columns: repeat(3, 4px);
+  grid-template-rows: repeat(3, 4px);
+  background-color: white;
+  grid-gap: 2px;
+  color: black;
+
+}
+.apps div {
+  background-color: grey;
+
+}
+
+.signin {
+  grid-column: 5/6;
+  background: #4285f4;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  margin: auto;
+  margin-left: 2em;
+  padding: 0px 1.5em;
+  border-radius: 3px;
+}
+
+.google-logo {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.logo-image {
+  position: relative;
+  width: 275px;
+  line-height: 180px;
+
+}
+
+.search {
+  margin: auto;
+  margin-top: 50px;
+  width: 30%;
+  height: 44px;
+  border: solid lightgrey;
+  border-width: thin;
+  left: 0;
+  right: 0;
+  border-radius: 24px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+
+  align-items: center;
+}
+
+.search:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+
+#search-icon {
+  display: grid;
+  grid-column: 1/2;
+  justify-self: center;
+}
+
+#search-bar {
+  display: grid;
+  grid-column: 2/3;
+  justify-self: start;
+}
+
+input[type=text] {
+  border: none;
+  outline: none;
+}
+
+.material-icons.smallergrey {
+  font-size: 20px;
+  color: #9aa0a6;
+}
+
+.feel-lucky {
+  display: flex;
+  justify-content: center;
+
+}
+
+.feel-lucky div {
+  background-color: #f8f9fa;
+  margin: 30px 4px 11px 4px;
+  padding: 0 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+.box1:hover {
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+}
+
+.box2:hover{
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #0000008a;
+  left: 0;
+  right: 0;
+  font-size: 10.5pt;
+  border-top: 1px solid #dadce0;
+  line-height: 40px;
+  justify-content: center;
+  flex: 0 0 auto;
+}
+
+.footer1 {
+  display: flex;
+  height: 40px;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:  space-between;
+  border-top: 1px solid #dadce0;
+  padding: 0 30px;
+}
+
+.footer21 a {
+  padding-left: 23px;
+  color: #0000008a;
+
+}
+
+.footer22 a {
+  padding-left: 23px;
+  color: #0000008a;
+}
