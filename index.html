@@ -10,24 +10,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
   </head>
   <body>
+    <a href="#top" class="to-top-button"><ion-icon name="arrow-up-outline" class="icon-big"></ion-icon></a>
+    <div class="background">
+
     
-    <header>
+    <header id="top">
         <nav>
           <div class="logo">
             <p>RoL</p>
           </div>
+
           <ul>
+            <li><a href="#services">Services</a></li>
             <li><a href="https://github.com/limberly"><ion-icon class="icon-big" name="logo-github"></ion-icon></a></li>
           </ul>
         </nav>
-    </header>
 
-    <section class="section-main">
-      <div class="main-heading">
-        <h1>Hyungue Lim</h1>
-        <h2>Ruby on Rails Developer</h2>
-      </div>
-      <div class="services">
+        <div class="header-text">
+          <h1>
+            <span class="header-text-main">Hyungue Lim</span>
+            <span class="header-text-sub">Ruby on Rails Developer</span>
+          </h1>
+            
+        </div>
+        <a href="#services" class="btn hire-me">Hire Me!</a>
+
+
+
+    </header>
+  </div>
+
+    <section class="section-services" id="services">
+      <div class="services" >
         <h3 class="animate__animated animate__bounce animate__slow animate__infinite">Services Offered</h3>
         <ul>
           <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Front-End App</li>
