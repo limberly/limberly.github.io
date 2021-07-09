@@ -2,24 +2,46 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Lim!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruby on Lim</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>This is Lim's Website (working on it!)</h1>
-    <main>
-      <div class="">
-        <h3>These are my projects!</h3>
+    
+    <header>
+        <nav>
+          <div class="logo">
+            <p>RoL</p>
+          </div>
+          <ul>
+            <li><a href="https://github.com/limberly"><ion-icon class="icon-big" name="logo-github"></ion-icon></a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <section class="section-main">
+      <div class="main-heading">
+        <h1>Hyungue Lim</h1>
+        <h2>Ruby on Rails Developer</h2>
       </div>
-      <div class="projects">
-        <ul class="project-links">
-          <li><a href="https://github.com/limberly">Please visit my github page!</a></li>
-          <li><a href="projects/google-homepage/html/index.html">Google Homepage Replica</a></li>
-          <li><a href="projects/tribute-page/html/index.html">Patrick Stump Tribute Page</a></li>
-          <li><a href="projects/google-homepage/html/index.html">Google Homepage Replica</a></li>
+      <!-- 
+        animate__delay-2s animate__infinite
+       -->
+      <div class="services">
+        <h3 class="animate__animated animate__bounce animate__slow animate__infinite">Services Offered</h3>
+        <ul>
+          <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Front-End App</li>
+          <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Rails App</li>
+          <li><ion-icon class="icon-small" name="checkmark-outline"></ion-icon>Full-Stack App</li>
         </ul>
       </div>
-    </main>
+    </section>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

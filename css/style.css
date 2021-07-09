@@ -1,1 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+/* Back ground animation By:
+Manuel Pinto
+https://manuelpinto.in */
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #dadada;
+  box-sizing: border-box;  
+	background: linear-gradient(-45deg, #f6b93b, #e55039, #4a69bd, #60a3bc, #78e08f);
+  
+	background-size: 400% 400%;
+  height: 100vh;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+  font-size: 300%;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 200%;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 150%;
+}
+
+nav {
+  width: 800px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 10px 40px;
+  font-size: 150%;
+  background-color: rgba(224,224,224, 0.2);
+  box-sizing: border-box;
+}
+
+nav li {
+  float:right;
+  list-style: none;
+}
+
+.logo {
+  float:left;
+}
+
+.icon-big {
+  color: #dadada;
+  height: 36px;
+  width: 36px;
+}
+
+.icon-small {
+  color: #dadada;
+  height: 24px;
+  width: 24px;
+  vertical-align: middle;
+  padding-bottom: 4px;
+  margin-right: 10px;
+}
+
+section {
+  background-image: linear-gradient(rgba(224,224,224, 0.2), rgba(224,224,224, 0.2));
+  margin: 0 auto;
+  width: 800px;
+  height: 100vh;
+}
+
+section div {
+  padding: 50px 40px;
+}
+
+.services h3 {
+  text-align: center;
+}
+
+.services ul {
+  list-style: none;
+  padding-top: 20px;
+  width: 250px;
+  margin: 0 auto;
+}
+
 
